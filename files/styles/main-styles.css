@@ -59,6 +59,14 @@ button {
     height: var(--header-height);
 }
 
+.page-header h1 {
+    color: #F1FAEE;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
 .page-body {
     position: absolute;
     background-color: var(--main-background);
@@ -84,7 +92,8 @@ button {
 }
 
 .page-footer p {
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .navbar {
