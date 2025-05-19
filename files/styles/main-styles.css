@@ -83,6 +83,10 @@ button {
     border-top: solid 1px var(--main-highlight);
 }
 
+.page-footer p {
+    margin-top: 5px;
+}
+
 .navbar {
     margin-top: 1px;
     border-bottom: solid 2px var(--main-highlight);
@@ -108,23 +112,31 @@ button {
         border-color: var(--main-highlight);
     }
 
+.content-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .content-card {
+    display: flex;
     background-color: var(--main-midground);
     color: var(--main-highlight);
     border: solid 2px var(--main-highlight);
-    border-radius: 2px;
-    height: 100px;
+    border-radius: 10px;
+    height: 150px;
     width: 80%;
     margin-left: 10%;
     margin-top: 10px;
 }
 
-.content-card-img {
+.content-card img {
     float: left;
-    height: 100px;
+    height: 100%;
+    border-radius: 9px;
 }
 
-.content-card-p {
+.content-card p {
     float: left;
     margin: 5px;
 }
+
