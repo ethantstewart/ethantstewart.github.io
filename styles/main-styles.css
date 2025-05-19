@@ -1,0 +1,128 @@
+:root {
+    /* TODO: Ensure website is mobile-friendly! */
+    /* 
+  Color Palette generated with Coolors.co and used under the conditions of the license agreement! 
+  Super great resource for folks like me who don't know anything about color theory: 
+  https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 
+  */
+    --main-background: #1D3557;
+    --main-midground: #457B9D;
+    --main-foreground: #A8DADC;
+    --main-highlight: #F1FAEE;
+    --ered: #E63946;
+    --header-height: 110px;
+    --footer-height: 50px;
+}
+
+/* Default Overrides Here */
+body {
+    margin: 0;
+    background-color: var(--main-foreground);
+}
+
+hr {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* I almost always override the standard button: the plain HTML button is a bit painful to look at in modern website design */
+button {
+    background-color: var(--main-background);
+    color: var(--main-foreground);
+    border-color: var(--main-highlight);
+    border-style: solid;
+    font-weight: bold;
+    margin: 0;
+}
+
+    button:hover {
+        border-style: groove;
+    }
+
+    button:active {
+        background-color: var(--main-highlight);
+        color: var(--main-background);
+        border-color: var(--main-foreground);
+    }
+
+/* Custom Classes Here */
+.page-header {
+    position: absolute;
+    background-color: var(--main-background);
+    color: var(--main-highlight);
+    float: left;
+    width: 100%;
+    height: var(--header-height);
+}
+
+.page-body {
+    position: absolute;
+    background-color: var(--main-background);
+    min-width: 300px;
+    width: 80%;
+    min-height: fit-content;
+    height: calc(100% - (var(--header-height) + var(--footer-height)));
+    margin: 0;
+    top: var(--header-height);
+    left: max(10%, 1px);
+}
+
+.page-footer {
+    position: absolute;
+    background-color: var(--main-background);
+    color: var(--main-foreground);
+    width: 100%;
+    height: var(--footer-height);
+    left: 0;
+    bottom: 0;
+    border-top: solid 1px var(--main-highlight);
+}
+
+.navbar {
+    margin-top: 1px;
+    border-bottom: solid 2px var(--main-highlight);
+    height: 30px;
+}
+
+.navbar-button {
+    float: left;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-button-active {
+    background-color: var(--main-highlight);
+    color: var(--main-background);
+    border-color: var(--main-foreground);
+}
+
+    .navbar-button-active:active {
+        background-color: var(--main-background);
+        color: var(--main-foreground);
+        border-color: var(--main-highlight);
+    }
+
+.content-card {
+    background-color: var(--main-midground);
+    color: var(--main-highlight);
+    border: solid 2px var(--main-highlight);
+    border-radius: 2px;
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.content-card-img {
+    float: left;
+    height: 100px;
+}
+
+.content-card-p {
+    float: left;
+    margin: 5px;
+}
