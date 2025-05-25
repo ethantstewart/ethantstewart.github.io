@@ -8,9 +8,9 @@
       "date": "5/19/2025"
     },
     {
-      "id": 1,
+      "id": 0,
       "title": "Example Card",
-      "image_src": "profile.jpg",
+      "image_src": "",
       "description": "This is an example card to test the site in development",
       "date": "5/19/2025"
     }

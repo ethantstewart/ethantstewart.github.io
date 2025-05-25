@@ -1,0 +1,11 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Example Project",
+      "image_src": "",
+      "description": "This card links to an example project.",
+      "date": "5/25/2025"
+    }
+  ]
+}
