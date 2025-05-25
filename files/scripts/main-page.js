@@ -110,6 +110,8 @@ function createCard(card) {
         card_desc = document.createElement("p");
         card_desc.innerText = card.description;
         content_card.appendChild(card_desc);
+
+        content_card.classList.add("text-card");
     }
 
     if (card.id != "0") {

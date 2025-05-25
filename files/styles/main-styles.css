@@ -142,12 +142,6 @@ button {
     margin-top: 10px;
 }
 
-.image-card {
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-}
-
 .content-card img {
     float: left;
     height: 100%;
@@ -155,8 +149,19 @@ button {
     border-radius: 9px;
 }
 
+.image-card {
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
 .image-card img {
     max-height: 250px;
+}
+
+.text-card {
+    height: fit-content;
+    max-height: fit-content;
 }
 
 .content-card p {
