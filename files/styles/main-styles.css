@@ -129,7 +129,7 @@ button {
     scrollbar-width: none;
 }
 
-/* TODO: The card breaks on Safari if the text is too long, the text overflows and the card does not resize to fit it. */
+/* For some reason { min-height: fit-content } does not work on Safari without { height: min(150px, fit-content) } */
 .content-card {
     display: flex;
     background-color: var(--main-midground);
@@ -141,8 +141,6 @@ button {
     width: 80%;
     margin-left: 10%;
     margin-top: 10px;
-    /* text-overflow: ellipsis;
-    overflow: hidden; */
 }
 
 .content-card img {
