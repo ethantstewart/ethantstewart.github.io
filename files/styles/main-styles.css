@@ -129,6 +129,7 @@ button {
     scrollbar-width: none;
 }
 
+/* TODO: The card breaks on Safari if the text is too long, the text overflows and the card does not resize to fit it. */
 .content-card {
     display: flex;
     background-color: var(--main-midground);
@@ -136,12 +137,12 @@ button {
     border: solid 2px var(--main-highlight);
     border-radius: 10px;
     min-height: fit-content;
-    height: 150px;
+    height: min(150px, fit-content);
     width: 80%;
     margin-left: 10%;
     margin-top: 10px;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
 }
 
 .content-card img {
