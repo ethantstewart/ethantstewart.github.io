@@ -54,7 +54,7 @@ button {
     background-color: var(--main-background);
     color: var(--main-highlight);
     float: left;
-    min-width: 350px;
+    /* min-width: 350px; */
     width: 100%;
     height: var(--header-height);
 }
@@ -70,20 +70,20 @@ button {
 .page-body {
     position: absolute;
     background-color: var(--main-background);
-    min-width: 350px;
+    /* min-width: 350px; */
     width: 80%;
     min-height: fit-content;
     height: calc(100% - (var(--header-height) + var(--footer-height)));
     margin: 0;
     top: var(--header-height);
-    left: max(10%, 1px);
+    left: 10%;
 }
 
 .page-footer {
     position: absolute;
     background-color: var(--main-background);
     color: var(--main-foreground);
-    min-width: 350px;
+    /* min-width: 350px; */
     width: 100%;
     height: var(--footer-height);
     left: 0;
