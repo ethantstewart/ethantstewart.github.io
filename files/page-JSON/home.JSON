@@ -6,13 +6,6 @@
       "image_src": "profile.jpg",
       "description": "This site is a major work-in-progress, but it will eventually showcase some projects I've worked on in the past and have some information about me!",
       "date": "5/19/2025"
-    },
-    {
-      "id": 0,
-      "title": "Example Card",
-      "image_src": "",
-      "description": "This is an example card to test the site in development.",
-      "date": "5/19/2025"
     }
   ]
 }
