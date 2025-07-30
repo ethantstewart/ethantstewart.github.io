@@ -2,10 +2,43 @@
   "cards": [
     {
       "id": 0,
-      "title": "Placeholder",
+      "title": "Achievements",
       "image_src": "",
-      "description": "This page is not yet completed.",
-      "date": "5/19/2025"
+      "description": "This page is meant to showcase some personal achievements and awards I've received over the years.",
+      "date": "01/01/2000",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Computer Science Degree",
+      "image_src": "",
+      "description": "On May 10th, 2025, I walked the stage at Clarkson University and received a Bachelor's of Science in Computer Science with distinction, completing a Minor in Mathematics and a Minor in Business Management as a first-generation college student.",
+      "date": "05/10/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Dean's List",
+      "image_src": "",
+      "description": "I received the Dean's List award from Clarkson University due to my achievement during the semesters of Fall 2022, Spring 2024, and Spring 2025.",
+      "date": "05/12/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Stowe Reporter Article",
+      "image_src": "",
+      "description": "On June 20, 2019, I was mentioned in a <a href=\"https://www.vtcng.com/stowe_reporter/news/local_news/internship-program-matches-students-with-their-passions/article_5972859c-936b-11e9-92a1-dbecf474f91c.html\">Stowe Reporter Article</a> about Stowe High School's SHINE internship program. Inntopia's Kris Nolan commented on my work ethic and knowledge in the role. Thank you to the folks at Inntopia for giving me the opportunity to work with you!",
+      "date": "06/20/2019",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Elected Social Chair",
+      "image_src": "",
+      "description": "I was elected by my brothers as the Social Chair of our Lambda Phi Epsilon chapter of Tau Epsilon Phi for Spring and Fall of 2024, also serving as a Risk Management Advisor and an Elected Board member.",
+      "date": "05/01/2024",
+      "link": 0
     }
   ]
 }

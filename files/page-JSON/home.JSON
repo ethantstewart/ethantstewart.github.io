@@ -2,17 +2,67 @@
   "cards": [
     {
       "id": 0,
-      "title": "Introduction",
-      "image_src": "profile.jpg",
-      "description": "This site is a major work-in-progress, but it will eventually showcase some projects I've worked on in the past and have some information about me!",
-      "date": "5/19/2025"
+      "title": "Welcome to my Website!",
+      "image_src": "",
+      "description": "This website is a work-in-progress! Everything on here is created by me, including the entire actual website design, unless specified otherwise. <br><br>PS. Sorry for the very serious picture, I'll update that soon with one a bit less intense!",
+      "date": "07/29/2025",
+      "link": 0
     },
     {
       "id": 0,
-      "title": "Example Card",
+      "title": "A Recent Photo of Me",
+      "image_src": "http://ethantstewart.com/files/images/profile.jpg",
+      "description": "",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "About Me",
       "image_src": "",
-      "description": "This is an example card to test the site in development.",
-      "date": "5/19/2025"
+      "description": "My name is Ethan Thomas Stewart, a recent first-generation graduate with a Bachelor's Degree in Computer Science. I am a highly motivated team player, and I strive to bring out the best in the people around me by appreciating who they are and what they are capable of. I am the type of person who needs to be invested in meaningful work to be fulfilled; I cannot be content allowing life to pass me by. It is my mission to annihilate problems and move forward at full speed. I spend a large amount of my free time reading, learning, and exploring new opportunities to grow as a person. I am confident in my abilities because I know that I will put in the work to ensure I am valuable to the people around me, and communicate with them to make sure I am performing at the best of my capabilities.",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Career Goals",
+      "image_src": "",
+      "description": "My primary long-term career goal is to acquire a position in Cybersecurity that works to defend my country. I am currently applying for entry-level jobs at workplaces that have a history of excellent work, where I will fully engage with the environment around me to strive for greatness in more crucial roles. When I am hired in an entry-level position, I will work tirelessly to outperform expectations, with the goal of achieving a higher-level position and repeating the process.",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Skills",
+      "image_src": "",
+      "description": "",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Hobbies",
+      "image_src": "",
+      "description": "As mentioned in the \"About Me\" section, I love to read, learn, and develop myself as a person. I love learning about interpersonal dynamics and about ways to hack the mind to increase one's capabilities. On a more casual note, I do love some more traditionally fun activities: <br><br>I love to ski, spend time at the gym, hike, and go out with friends to enjoy music, even though I'm a terrible dancer. My love for learning is not exclusive to my career, either; I practice video editing, 3d model design, modding video games, and I of course create small (and sometimes janky) software projects on the side. I also play sudoku and chess often in my free time, and I am rated in the top 7% of players on Chess.com!",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "Personality Test",
+      "image_src": "",
+      "description": "",
+      "date": "07/30/2025",
+      "link": 0
+    },
+    {
+      "id": 0,
+      "title": "My Stance on the use of Artificial Intelligence",
+      "image_src": "",
+      "description": "",
+      "date": "07/30/2025",
+      "link": 0
     }
   ]
 }

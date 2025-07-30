@@ -8,7 +8,7 @@
     --main-background: #1D3557;
     --main-midground: #457B9D;
     --main-foreground: #A8DADC;
-    --main-highlight: #F1FAEE;
+    --main-highlight: #F1F2F1/*#F1FAEE*/;
     --ered: #E63946;
     --header-height: 110px;
     --footer-height: 50px;
@@ -26,6 +26,27 @@ hr {
 
 p {
     margin: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+h4 {
+    font-size: 1.15em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+figcaption {
+    text-align: center;
 }
 
 /* I almost always override the standard button: the plain HTML button is a bit painful to look at in modern website design */
@@ -113,6 +134,7 @@ button {
     background-color: var(--main-highlight);
     color: var(--main-background);
     border-color: var(--main-foreground);
+    border-bottom: 0em;
 }
 
     .navbar-button-active:active {
@@ -131,6 +153,7 @@ button {
 
 /* For some reason { min-height: fit-content } does not work on Safari without { height: min(150px, fit-content) } */
 .content-card {
+    font-size: 1.1em;
     display: flex;
     background-color: var(--main-midground);
     color: var(--main-highlight);
@@ -140,7 +163,10 @@ button {
     height: min(150px, fit-content);
     width: 80%;
     margin-left: 10%;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 0.5px 0.5px 2px rgb(40, 40, 40);
+    padding-bottom: 0.25em;
 }
 
 .content-card img {
@@ -163,6 +189,7 @@ button {
 .text-card {
     height: fit-content;
     max-height: fit-content;
+    padding-left: 0.25em;
 }
 
 .content-card p {

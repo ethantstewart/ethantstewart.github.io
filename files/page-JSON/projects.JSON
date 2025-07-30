@@ -1,11 +1,52 @@
 {
   "cards": [
     {
-      "id": 1,
-      "title": "Example Project",
+      "id": 0,
+      "title": "Projects",
       "image_src": "",
-      "description": "This card links to an example project.",
-      "date": "5/25/2025"
+      "description": "As of right now, most of the listed projects do not have active links until I make them publicly accessible. Please note that the code involved with these examples was never intended to be shown publicly, as I made them to test my knowledge of new concepts while in college. Given more time, I would like to continue development and get these projects to a higher standard.",
+      "date": "01/01/2000",
+      "link": 0
+    },
+    {
+      "id": 1,
+      "title": "Neural Network in C++",
+      "image_src": "",
+      "description": "Here's a neural network I wrote from scratch in C++.",
+      "date": "7/29/2025",
+      "link": 1
+    },
+    {
+      "id": 2,
+      "title": "Various Cybersecurity Challenges",
+      "image_src": "",
+      "description": "Here are the solutions I came up with for several cybersecurity challenges I have encountered at Clarkson and online.",
+      "date": "7/30/2025",
+      "link": 2
+    },
+    {
+      "id": 3,
+      "title": "Playable 3d Chess in Python",
+      "image_src": "",
+      "description": "Here's a playable 3d chess game I made in Python using an OpenGL library. I have not yet posted this project online, but it will soon link to the repository.",
+      "date": "7/29/2025",
+      "link": 0
+    },
+    {
+      "id": 4,
+      "title": "End-to-End Encrypted Chat in Python (In Progress)",
+      "image_src": "",
+      "description": "I have not yet posted this project publicly; I hope to get it posted soon, stay tuned!",
+      "date": "7/29/2025",
+      "link": 0
+    },
+    {
+      "id": 5,
+      "title": "Compiler in C (In Progress)",
+      "image_src": "",
+      "description": "Here is the beginning code of a pascal compiler written in C. This one is not posted yet, either, but I am hoping to get it ready soon.",
+      "date": "7/29/2025",
+      "link": 0
     }
   ]
 }

@@ -55,7 +55,10 @@ function loadContent(page) {
 
         pageJSON = pageJSON.cards;
         for (card in pageJSON) {
-            cardHolder.appendChild(createCard(pageJSON[card]));
+            card_node = createCard(pageJSON[card]);
+            if (card_node) {
+                cardHolder.appendChild(card_node);
+            }
         }
     }
 }
@@ -74,7 +77,10 @@ function loadProject(projectID) {
 
         projectJSON = projectJSON.cards;
         for (card in projectJSON) {
-            cardHolder.appendChild(createCard(projectJSON[card]));
+            card_node = createCard(projectJSON[card]);
+            if (card_node) {
+                cardHolder.appendChild(card_node);
+            }
         }
     }
 }
@@ -86,36 +92,53 @@ function createCard(card) {
 
     // Check for different card layouts:
     if (card.image_src && card.description) {
-        // Default image & description layout
+        // Default layout: image & description
         // Create image part
         card_img = document.createElement("img");
-        card_img.src = window.location.origin + "/files/images/" + card.image_src;
+        card_img.src = card.image_src;
         content_card.appendChild(card_img);
 
-        // Create description part
+        // Create Description
         card_desc = document.createElement("p");
-        card_desc.innerText = card.description;
+        card_desc.innerHTML = "<h3>" + card.title + "</h3>" + card.description;
         content_card.appendChild(card_desc);
     } else if (card.image_src) {
         // Image-only layout
+        // Create a figure
+        card_fig = document.createElement("figure");
         card_img = document.createElement("img");
-        card_img.src = window.location.origin + "/files/images/" + card.image_src;
+        card_img.src = card.image_src;
+        card_fig.appendChild(card_img);
+
+        // Use the title as the figure caption
+        card_caption = document.createElement("figcaption");
+        card_caption.innerHTML = card.title;
+        card_fig.appendChild(card_caption);
+        content_card.appendChild(card_fig);
 
         content_card.classList.add("image-card");
-
-        content_card.appendChild(card_img);
     } else if (card.description) {
         // Description-Only Layout
-
         card_desc = document.createElement("p");
-        card_desc.innerText = card.description;
+        card_desc.innerHTML = "<h3>" + card.title + "</h3>" + card.description;
+
         content_card.appendChild(card_desc);
 
         content_card.classList.add("text-card");
+    } else {
+        console.log("Comment");
+        // No card to return
+        return null;
     }
 
-    if (card.id != "0") {
-        content_card.addEventListener("click", function () { projectNavigation(card.id) });
+    if (card.link != 0) {
+        if (typeof(card.link) == "string") {
+            // Open a new window with the content in the card
+            content_card.addEventListener("click", function () { window.open(card.link, '_blank').focus(); })
+        } else {
+            // Navigate the current window to the content page
+            content_card.addEventListener("click", function () { projectNavigation(card.link) });
+        }
     }
 
     return content_card;

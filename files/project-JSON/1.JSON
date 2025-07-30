@@ -2,10 +2,36 @@
   "cards": [
     {
       "id": 0,
-      "title": "Example Project",
+      "title": "Neural Network in C++",
       "image_src": "",
-      "description": "Here's the example project page.",
-      "date": "5/25/2025"
-    }
+      "description": "Click this card to visit the repository for the project on GitHub. Please note that this is a very simple neural network, and it can be vastly optimized, especially using a graphics card interface language to greatly increase the speed of matrix operations.",
+      "date": "7/29/2025",
+      "link": "https://github.com/ethantstewart/Neural-Network-Cpp"
+    },
+    {
+      "id": 0,
+      "title": "Description",
+      "image_src": "",
+      "description": "Here's a polymorphic neural network I wrote from scratch in C++. If you are able to complete basic arithmatic using a custom class, it should work with the network! It also supports custom-made functions for loss/error functions and activation functions, and variable network sizes/input dimensions.",
+      "date": "7/29/2025",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "title": "Why Re-invent the Wheel?",
+      "image_src": "",
+      "description": "You may be wondering why I took the time to create an effectively worse version of a common artificial intelligence model. The short answer is that I wanted to challenge my understanding of the concept of neural networks, as I was not satisfied with just understanding the psuedocode of a basic neural network in college classes. I wanted to use a language that did not give me any significant shortcuts, and build my neural network framework from the ground up. I felt that I would be able to apply what I learned doing so to better understand the foundations of modern artificial intelligence. I consider this project a success, as I learned a lot while creating the network, including about some quirks in the C++ language that I have never encountered before.",
+      "date": "7/30/2025",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "title": "(TODO) Challenges Involving the Project",
+      "image_src": "",
+      "description": "",
+      "date": "7/30/2025",
+      "link": ""
+    },
+    "The first challenge I ran into was the most obvious; a misunderstanding of what was meant by the math behind the neural network. There is plenty of documentation regarding how neural networks work on a broad scale, but I found it difficult to find information on specific implementation in any language besides Python. My main problem was understanding what specifically went into backpropagation. I"
   ]
 }
