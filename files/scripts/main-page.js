@@ -57,7 +57,7 @@ function loadContent(page) {
         for (card in pageJSON) {
             card_node = createCard(pageJSON[card]);
             if (card_node) {
-                cardHolder.appendChild(card_node);
+                cardHolder.appendChild(card_node); 
             }
         }
     }
